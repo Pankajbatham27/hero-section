@@ -1,0 +1,54 @@
+.divCover img {
+    max-height: 556px;
+}
+.divCover {
+    text-align: center;
+    padding: 61px 37px;
+}
+.firstBackImage{
+
+}
+
+.firstBackImage {
+    position: relative;
+}
+
+.firstBackImage::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 12%;
+    right: 12%;
+    position: absolute;
+    border: 8px solid #fff;
+    border-radius: 193px;
+    opacity: 0.3;
+}
+
+.firstBackImage::after {
+    content: "";
+    top: 4%;
+    bottom: 5%;
+    left: 16%;
+    right: 16%;
+    position: absolute;
+    border: 8px solid #fff;
+    border-radius: 168px;
+    opacity: 0.3;
+}
+
+.bgView {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    transform: scale(1.1);
+}
+
+.divCover {
+    position: relative;
+}
